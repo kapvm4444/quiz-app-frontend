@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react";
 import { io } from "socket.io-client";
 
-const SocketUrl = "http://10.0.0.106:8000";
+const SocketUrl = "http://10.20.51.115:8000";
 const socket = io(SocketUrl, {
   closeOnBeforeunload: true,
   autoConnect: false,
